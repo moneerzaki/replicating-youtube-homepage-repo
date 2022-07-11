@@ -11,6 +11,7 @@
     box-sizing: border-box;
 }
 
+
 header{
     width:100%;
     height: 50px; 
@@ -18,8 +19,10 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 7px 20px 20px 7px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
 }
-
 .leftheader{
     width: 50px;
     display: flex; 
@@ -29,19 +32,53 @@ header{
 
 }
 .middleheader{
-    width: 50%; 
+    width: 20%; 
     display: flex; 
     flex-direction: row; 
     justify-content: center; 
     align-items: center;
 
 }
+.searchboxtext{
+    width: 100%; 
+    height: 30px;
+    border-radius:  2px 0px 0px 2px ;
+    padding: 10px; 
+    font-size: 14px; 
+    color: grey;
+    border-style: solid 0.2px grey;
 
+}
+.searchicon{
+    width: 100px;
+    height: 30px;
+    border-radius: 0px 2px 2px 0px;
+    background-color: rgb(240, 240, 240);
+    padding: 5px 10px 10px 5px;
+    border-style:  solid 0.2px black;
+}
+.micicon{
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 3px;
+    background-color: rgb(245, 245, 245);
+}
 .rightheader{
-    width: 100px; 
+    width: 180px; 
     display: flex; 
     flex-direction: row; 
-    justify-content: right;
+    justify-content: space-around;
     align-items: center;
-    padding: 5px; 
+    /* font-size:8px; */
+}
+
+
+.leftheader:hover{
+    cursor: pointer;
+}
+.middleheader:hover{
+    cursor: pointer;
+}
+.rightheader:hover{
+    cursor: pointer;
 }
