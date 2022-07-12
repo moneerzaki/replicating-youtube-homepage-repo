@@ -225,3 +225,107 @@ header{
     background-color:  rgb(212, 212, 212);;
     
 }
+
+
+
+
+
+
+.videosarea {
+    width:100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(245, 245, 245);
+
+    /* height: auto; */
+
+}
+.videosarea a{
+    height: 230px;
+    max-width: 280px;
+    min-width: 230px;
+    width: 35%;
+    margin-top: 10px;
+    margin-left: 10px; 
+    margin-right: 10px;
+    margin-bottom: 10px;
+    /* border: 0.1px solid black; */
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.videoimage{
+    width: 100%;
+    height: 50%;
+} 
+
+.videobottom{
+    width: 100%;
+    height: 45%;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+
+}
+
+.videochannellogo{
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+
+}
+
+.videochannellogo img{
+    width: 80%;
+    border-radius: 50%;
+    /* padding: 10px; */
+}
+
+
+.videotext{
+    /* width: 160%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: left;
+    margin-left: 5px; 
+    margin-right: 5px;
+
+}
+
+.videoname{
+    height: 50%;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-overflow: clip;
+
+}
+.videotextinfo{
+    color: rgb(177, 177, 177);
+    font-size: 11px;
+    line-height: 11px;
+    padding-top: 5px;
+}
+
+.videomore{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+}
